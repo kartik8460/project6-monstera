@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+#navbarMonstera {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 40px 60px;
+    align-items: center;
+}
+
+#navMid {
+    text-decoration: none;
+}
+
+#navMid div, #navEnd div {
+    display: inline-block;
+    font-size: 20px;
+    font-family: "Allerta", sans-serif;
+    cursor: pointer;
+}
+
+#navMid div {
+    font-weight: 100;
+    margin: 0 40px;
+}
+
+#navEnd div {
+    margin: 0 20px;
+}
+
+#midWhole {
+    position: relative;
+    padding-left: 60px;
+}
+
+#img-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#midWholePart11 li {
+    font-family: "Allerta", sans-serif;
+    font-size: 25px;
+}
+
+#monstera {
+    display: inline-block;
+    margin-top: 100px;
+    font-size: 150px;
+    font-weight: 900;
+}
+
+#midWholePart121 div{
+    display: inline-block;
+    font-family: "Allerta", sans-serif;
+    color: #FFFFFF;
+}
+
+#midWholePart121 {
+    width: fit-content;
+    margin-top: 50px;
+    padding: 15px 30px;
+    background-color: #466d50;
+    border-radius: 50px;
+    font-weight:lighter;
+}
+
+#midWholePart122 {
+    padding-left: 10px;
+}
+
+#midWholePart13 div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.midWholePart13Parts  {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 100px;
+    padding-right: 40px;
+}
+
+.midWholePart13Parts div h4 {
+    font-size: 30px;
+    font-family: "Allerta", sans-serif;
+}
+
+.text {
+    font-family: "Allerta", sans-serif;
+    font-size: 12px;
+    width: 200px;
+}
+
+.midWholePart13Parts div:first-child {
+    padding-right: 5px;
+}
